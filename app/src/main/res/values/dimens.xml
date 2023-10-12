@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="instruction_width">150dp</dimen>
+    <dimen name="instruction_height">100dp</dimen>
+
+    <dimen name="font_medium">20sp</dimen>
+    <dimen name="font_large">28sp</dimen>
+    <dimen name="input_layout_margin">20dp</dimen>
+</resources>

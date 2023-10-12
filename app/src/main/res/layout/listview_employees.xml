@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/black"
+    app:cardCornerRadius="20dp">
+<!--här skapar vi adaptern för att hantera layout för varje individuell inmatning-->
+    <TextView
+        android:id="@+id/tv_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_information2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Joakim Bjärkstedt"></TextView>
+
+    <TextView
+        android:id="@+id/tv_information2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_information2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="34"></TextView>
+
+    <TextView
+        android:id="@+id/tv_information3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_information2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Stockholm"></TextView>
+
+    <TextView
+        android:id="@+id/tv_information4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_information3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_information3"
+        tools:text="30000">
+
+    </TextView>
+
+
+</androidx.cardview.widget.CardView>

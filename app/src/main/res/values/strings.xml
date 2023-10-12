@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Employee Listview</string>
+    <string name="View_button">view</string>
+    <string name="submit_button">Submit</string>
+    <string name="Instruction_text">Enter your Information below and press Submit</string>
+    <string name="salary_input">Salary</string>
+    <string name="location_input">Location</string>
+    <string name="full_name_input">Full Name</string>
+    <string name="age_input">Age</string>
+
+</resources>
